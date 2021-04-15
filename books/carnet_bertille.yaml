@@ -1,0 +1,39 @@
+book:
+  lang: fr
+  encoding: utf8
+  datadir: ".."
+  pictures: no
+  onesongperpage: no
+  template: data.tex
+chords:
+  show: yes
+  diagramreminder: important
+  diagrampage: all
+  repeatchords: no
+  lilypond: yes
+  tablatures: yes
+  notation: alphascale
+
+content:
+    - "boby_lapointe/aragon_et_castille.sg"
+    - "boby_lapointe/la_maman_des_poissons.sg"
+    - "boby_lapointe/ta_katie_t_a_quitte.sg"
+    - "corrigan_fest/je_suis_fils.sg"
+    - "corrigan_fest/la_victoire_en_chantant.sg"
+    - "corrigan_fest/tous_les_chemins_menent_au_rhum.sg"
+    - "daniel_balavoine/*.sg"
+    - "david_bowie/*.sg"
+    - "graeme_allwright/*.sg"
+    - "jeff_buckley/*.sg"
+    - "joan_baez/*.sg"
+    - "la_chanson_du_dimanche/*.sg"
+    - "les_fatals_picards/*.sg"
+    - "louis_armstrong/*.sg"
+    - "maxime_le_forestier/*.sg"
+    - "oasis/*.sg"    
+    - "pink_floyd/*.sg"
+    - "pixies/*.sg"
+    - "radiohead/*.sg"
+    - "r_e_m/*.sg"
+    - "traditionnel/*.sg"
+
