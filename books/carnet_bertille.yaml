@@ -5,6 +5,17 @@ book:
   pictures: no
   onesongperpage: no
   template: data.tex
+
+template:
+  default.tex:
+    title: "Carnet de chants"
+    author: "Bertille (et toustes les contributeurices de Patadata)"
+  patacrep.tex:
+    subtitle: "et autres bêtises"
+    url: ""
+    email: ""
+    
+
 chords:
   show: yes
   diagramreminder: important
@@ -15,25 +26,179 @@ chords:
   notation: alphascale
 
 content:
+    - songsection: "Canons, berceuses et autres ritournelles"
+    - setcounter: 1101
+    - "traditionnel/vent_frais.sg"
+    - "hugues_aufray/elle_descend_de_la_montagne.sg"
+    - songsection: "Chansons francophones"
+    #- songsection: "Chants historiques"
+    - setcounter: 2101
+    - "corrigan_fest/la_victoire_en_chantant.sg"
+    - "robert_marcy/file_la_laine.sg"
+    # strasbourgeoise
+    #- songsection: "Chants marins"
+    - setcounter: 2201
+    - "corrigan_fest/marins_perdus.sg"
+    - "hugues_aufray/le_port_de_tacoma.sg"
+    - "hugues_aufray/santiano.sg"
+    # guerre guerre vente vent
+    # le corsaire le grand coureur
+    # chanson à virer
+    # 31 mois aout
+    # les filles de la rochelle
+    #- songsection: "Chanson engagée et chants de lutte"
+    - setcounter: 2301
+    - "aristide_bruant/le_chant_des_canuts.sg"
+    - "corrigan_fest/je_suis_fils.sg"
+    - "graeme_allwright/johnny.sg"
+    - "graeme_allwright/jusqu_a_la_ceinture.sg"
+    - "graeme_allwright/le_jour_de_clarte.sg"
+    - "la_chanson_du_dimanche/super_pouvoir_d_achat.sg"
+    - "les_fatals_picards/au_mariage_de_kevin_et_de_ma_soeur.sg"
+    - "les_fatals_picards/chasse_peche_et_nature.sg"
+    - "les_fatals_picards/la_securite_de_l_emploi.sg"
+    - "les_fatals_picards/mon_pere_etait_tellement_de_gauche.sg"
+    - "maxime_le_forestier/parachutiste.sg"
+    - "tryo/l_hymne_de_nos_campagnes.sg"
+    # dulce de leche
+    #- songsection: "Chansons à boire"
+    - setcounter: 2401
+    - "corrigan_fest/tous_les_chemins_menent_au_rhum.sg"
+    - "traditionnel/chevaliers_de_la_table_ronde.sg"
+    #- songsection: "Pop culture"
+    - setcounter: 2501
+    - "dessins_animes/le_pudding_a_l_arsenic.sg"
+    - "le_donjon_de_naheulbeuk/a_l_aventure_compagnons.sg"
+    - "le_donjon_de_naheulbeuk/crom.sg"
+    - "le_donjon_de_naheulbeuk/la_biere_du_donjon.sg"
+    - "le_donjon_de_naheulbeuk/la_compagnie_du_chien_rugissant.sg"
+    - "le_donjon_de_naheulbeuk/la_vie_d_aventurier.sg"
+    - "le_donjon_de_naheulbeuk/marche_barbare.sg"
+    - "le_donjon_de_naheulbeuk/massacrons_nous_dans_la_taverne.sg"
+    - "le_donjon_de_naheulbeuk/mon_ancetre_gurdil.sg"
+    - "le_donjon_de_naheulbeuk/nanana_de_l_elfe.sg"
+    - "le_donjon_de_naheulbeuk/troll_farceur_et_elfe_farci.sg"
+    #- songsection: "Variété"
+    - setcounter: 2601
+    - "barbara/l_aigle_noir.sg"
     - "boby_lapointe/aragon_et_castille.sg"
     - "boby_lapointe/la_maman_des_poissons.sg"
     - "boby_lapointe/ta_katie_t_a_quitte.sg"
-    - "corrigan_fest/je_suis_fils.sg"
-    - "corrigan_fest/la_victoire_en_chantant.sg"
-    - "corrigan_fest/tous_les_chemins_menent_au_rhum.sg"
-    - "daniel_balavoine/*.sg"
-    - "david_bowie/*.sg"
-    - "graeme_allwright/*.sg"
-    - "jeff_buckley/*.sg"
-    - "joan_baez/*.sg"
-    - "la_chanson_du_dimanche/*.sg"
-    - "les_fatals_picards/*.sg"
-    - "louis_armstrong/*.sg"
-    - "maxime_le_forestier/*.sg"
-    - "oasis/*.sg"    
-    - "pink_floyd/*.sg"
-    - "pixies/*.sg"
-    - "radiohead/*.sg"
-    - "r_e_m/*.sg"
-    - "traditionnel/*.sg"
-
+    - "boris_vian/la_java_des_bombes_atomiques.sg"
+    - "charles_aznavour/comme_ils_disent.sg"
+    - "charles_aznavour/emmenez-moi.sg"
+    #- "charles_aznavour/la_boheme.sg"
+    - "daniel_balavoine/l_aziza.sg"
+    - "daniel_balavoine/le_chanteur.sg"
+    - "daniel_balavoine/tous_les_cris_les_sos.sg"
+    #- "edith_piaf/la_foule.sg"
+    #- "edith_piaf/la_vie_en_rose.sg"
+    #- "edith_piaf/milord.sg"
+    #- "edith_piaf/non_je_ne_regrette_rien.sg"
+    - "edith_piaf/padam_padam.sg"
+    #- "france_gall/ella.sg"
+    - "france_gall/il_jouait_du_piano_debout.sg"
+    #- "france_gall/laisse_tomber_les_filles.sg"
+    #- "france_gall/poupee_de_cire_poupee_de_son.sg"
+    - "francoise_hardy/la_maison_ou_j_ai_grandi.sg"
+    - "francoise_hardy/tous_les_garcons_et_les_filles.sg"
+    - "francoise_hardy/le_temps_de_l_amour.sg"
+    #- "georges_brassens/aupres_de_mon_arbre.sg"
+    - "georges_brassens/chanson_pour_l_auvergnat.sg"
+    - "georges_brassens/la_mauvaise_reputation.sg"
+    - "georges_brassens/les_copains_d_abord.sg"
+    - "georges_brassens/supplique_pour_etre_enterre_sur_la_plage_de_sete.sg"
+    # brave margot
+    # le pornographe
+    # la chasse aux papillons
+    - "graeme_allwright/il_faut_que_je_m_en_aille.sg"
+    - "graeme_allwright/jolie_bouteille.sg"
+    - "hugues_aufray/debout_les_gars.sg"
+    - "hugues_aufray/le_petit_ane_gris.sg"
+    - "hugues_aufray/n_y_pense_plus_tout_est_bien.sg"
+    - "hugues_aufray/stewball.sg"
+    - "jacques_brel/amsterdam.sg"
+    - "jacques_brel/au_suivant.sg"
+    - "jacques_brel/ces_gens_la.sg"
+    - "jacques_brel/la_valse_a_mille_temps.sg"
+    #- "jacques_brel/les_bourgeois.sg"
+    #- "jacques_brel/madeleine.sg"
+    #- "jacques_brel/ne_me_quitte_pas.sg"
+    - "jacques_brel/vesoul.sg"
+    - "jacques_dutronc/l_opportuniste.sg"
+    # les cactus
+    # il est 5h
+    - "jeanne_moreau/les_mots_de_rien_du_tout.sg"
+    - "jeanne_moreau/le_tourbillon_de_la_vie.sg"
+    #- "joe_dassin/et_si_tu_n_existais_pas.sg"
+    #- "joe_dassin/l_ete_indien.sg"
+    - "joe_dassin/le_petit_pain_au_chocolat.sg"
+    - "joe_dassin/les_champs_elysees.sg"
+    - "joe_dassin/siffler_sur_la_colline.sg"
+    - "marc_legrand/les_crapauds.sg"
+    - "maxime_le_forestier/l_auto_stop.sg"
+    - "maxime_le_forestier/san_francisco.sg"
+    #- "yves_montand/a_bicyclette.sg"
+    - "yves_montand/le_galerien.sg"
+    - "yves_montand/le_temps_des_cerises.sg"
+    #- "yves_montand/les_feuilles_mortes.sg"
+    - songsection: "Chansons anglophones"
+    #- songsection: "Folk"
+    - setcounter: 3101
+    - "jeff_buckley/hallelujah.sg"
+    - "joan_baez/here_s_to_you.sg"
+    - "simon_garfunkel/cecilia.sg"
+    - "simon_garfunkel/el_condor_pasa.sg"
+    - "simon_garfunkel/mrs_robinson.sg"
+    - "simon_garfunkel/scarborough_fair.sg"
+    - "simon_garfunkel/the_59th_street_bridge_song_feelin_groovy.sg"
+    - "simon_garfunkel/the_boxer.sg"
+    - "simon_garfunkel/the_sound_of_silence.sg"
+    #- songsection: "Blues et jazz"
+    - setcounter: 3201
+    - "louis_armstrong/what_a_wonderful_world.sg"
+    #- songsection: "Pop et rock"
+    - setcounter: 3301
+    - "david_bowie/space_oddity.sg"
+    - "oasis/wonderwall.sg"
+    - "pink_floyd/another_brick_in_the_wall.sg"
+    - "pink_floyd/comfortably_numb.sg"
+    - "pink_floyd/hey_you.sg"
+    - "pink_floyd/mother.sg"
+    - "pink_floyd/wish_you_were_here.sg"
+    - "pixies/where_is_my_mind.sg"
+    - "radiohead/creep.sg"
+    - "r_e_m/everybody_hurts.sg"
+    - "r_e_m/losing_my_religion.sg"
+    - "the_beatles/eleanor_rigby.sg"
+    - "the_beatles/hey_jude.sg"
+    - "the_beatles/let_it_be.sg"
+    - "the_beatles/penny_lane.sg"
+    - "the_beatles/ob-la-di_ob-la-da.sg"
+    - "the_beatles/the_long_and_winding_road.sg"
+    - "the_beatles/yellow_submarine.sg"
+    - "the_beatles/yesterday.sg"
+    - "the_eagles/hotel_california.sg"
+    - songsection: "Régionalismes, internationalisme et chants traditionnels"
+    #- songsection: "Bretagne"
+    - setcounter: 4101
+    - "tri_yann/la_jument_de_michao.sg"
+    - "tri_yann/les_prisons_de_nantes.sg"
+    - "traditionnel/les_filles_des_forges.sg"
+    #- songsection: "Pays basque"
+    - setcounter: 4201
+    - "joxean_artze/txoria_txori.sg"
+    #- songsection: "Occitanie"
+    - setcounter: 4301
+    - "traditionnel/si_canti.sg"
+    #- songsection: "Espagne"
+    - setcounter: 4401
+    - "traditionnel/la_cucaracha.sg"
+    #- songsection: "Italie"
+    - setcounter: 4501
+    - "adriano_celentano/il_ragazzo_della_via_gluck.sg"
+    - "traditionnel/bella_ciao.sg"
+    #- songsection: "Royaume-Uni"
+    - setcounter: 4601
+    - "traditionnel/greensleeves.sg"
+    - "traditionnel/drunken_sailor.sg"
